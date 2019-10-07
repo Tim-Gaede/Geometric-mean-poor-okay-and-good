@@ -120,7 +120,7 @@ function main()
             "into the populations array:\n")
 
     for cnt = 1 : 10
-        num = 10^(2*rand() + 5)
+        num = 10^(2rand() + 5)
         pop = convert(Int, floor(num))
         push!(populations, pop)
     end
@@ -140,7 +140,7 @@ function main()
             "into the populations array:\n")
 
     for cnt = 1 : 100
-        num = 10^(2*rand() + 5)
+        num = 10^(2rand() + 5)
         pop = convert(Int, floor(num))
         push!(populations, pop)
     end
